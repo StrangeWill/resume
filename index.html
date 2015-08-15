@@ -45,6 +45,10 @@ layout: default
         {% endfor %}
     </div>
     <div class="education">
-
+        {% for item in site.data.education %}
+        <div>
+            <div class="header">{{ item.school }}</div>
+        </div>
+        {% endfor %}
     </div>
 </div>

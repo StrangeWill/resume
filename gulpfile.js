@@ -8,7 +8,7 @@ var gulp        = require('gulp'),
 
 
 var messages = {
-  jekyllBuild: '<span style="color: grey;">Running:</span> $ jekyll build'
+    jekyllBuild: '<span style="color: grey;">Running:</span> $ jekyll build'
 };
 
 gulp.task('jekyll-build', function(done) {
@@ -22,7 +22,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function() {
 });
 
 gulp.task('compile-sass', function() {
-   return sass('sass/', { style: 'compressed' })
+   return sass('_sass/', { style: 'compressed' })
        .on('error', notify.onError(function(error) {
            return error.message;
        }))
@@ -31,7 +31,7 @@ gulp.task('compile-sass', function() {
 
 
 gulp.task('browser-sync', ['compile-sass', 'jekyll-build'], function() {
-   browserSync.init(['_site/assets/css/*.css'], {
+   browserSync.init(['_site/css/*.css'], {
         server: {
             baseDir: '_site'
         }
@@ -39,18 +39,20 @@ gulp.task('browser-sync', ['compile-sass', 'jekyll-build'], function() {
 });
 
 gulp.task('imagemin', function() {
-   return gulp.src('images/**/*')
+   return gulp.src('_images/**/*')
        .pipe(imagemin({
            progressive: true,
            svgoPlugins: [{ removeViewBox: false }],
-           use: [pngcrush()]
+           use: [
+               pngcrush()
+           ]
        }))
-       .pipe(gulp.dest('_site/images/'));
+       .pipe(gulp.dest('images'));
 });
 
 gulp.task('default', ['browser-sync'], function() {
-    gulp.watch(['sass/**/*.scss'], ['compile-sass', 'jekyll-rebuild']);
-    gulp.watch(['images/**/*'], ['imagemin', 'jekyll-rebuild']);
+    gulp.watch(['_sass/**/*.scss'], ['compile-sass', 'jekyll-rebuild']);
+    gulp.watch(['_images/**/*'], ['imagemin', 'jekyll-rebuild']);
     gulp.watch([
         '*.html',
         '_data/*',
