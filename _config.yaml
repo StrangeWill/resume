@@ -1,0 +1,13 @@
+markdown: kramdown
+permalink: pretty
+highlights: false
+exclude:
+  - bower_components
+  - node_modules
+  - bower.json
+  - gulpfile.js
+  - package.json
+
+sass:
+  sass_dir: sass
+  style: compressed

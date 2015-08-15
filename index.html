@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="resume">
+    <div class="contact">
+        {% for item in site.data.contact %}
+            <div class="{{ item[0] }}">
+                {% if item[1].link %}
+                    <a href="{{ item[1].link }}">{{ item[1].text }}</a>
+                {% else %}
+                    {{ item[1].text }}
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+    <div class="summary">
+        <p>{{ site.data.summary.text }}</p>
+    </div>
+    <div class="skills">
+        <div class="languages">
+            <h2>Proficient</h2>
+            <span class="indent">{{ site.data.skills.languages.proficient | array_to_sentence_string }}</span>
+            <h2>Familiar</h2>
+            <span class="indent">{{ site.data.skills.languages.familiar | array_to_sentence_string }}</span>
+        </div>
+        <div class="frameworks">
+            <h2>Frameworks</h2>
+            <span class="indent">{{ site.data.skills.frameworks | array_to_sentence_string }}</span>
+        </div>
+        <div class="platforms">
+            <h2>Platforms</h2>
+            <div class="indent">
+                {% for item in site.data.skills.platforms %}
+                    <div>{{ item }}</div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="experience">
+        {% for item in site.data.experience %}
+        <div>
+            {{ item.company }}
+        </div>
+        {% endfor %}
+    </div>
+    <div class="education">
+
+    </div>
+</div>

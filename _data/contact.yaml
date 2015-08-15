@@ -1,0 +1,23 @@
+user:
+  text: William Roush
+email:
+  link: test
+  text: william.roush@roushtech.net
+phone:
+  link: tel:+14234630592
+  text: 423-463-0592
+linkedin:
+  link: https://www.linkedin.com/in/williamroush
+  text: https://www.linkedin.com/in/williamroush
+bitbucket:
+  link: https://bitbucket.org/StrangeWill
+  text: https://bitbucket.org/StrangeWill
+github:
+  link: https://github.com/StrangeWill
+  text: https://github.com/StrangeWill
+twitter:
+  link: https://twitter.com/StrangeWill
+  text: https://twitter.com/StrangeWill
+web:
+  link:  http://www.roushtech.net
+  text:  http://www.roushtech.net

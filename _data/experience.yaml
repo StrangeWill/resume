@@ -1,0 +1,80 @@
+- company: RoushTech.net
+  start: 5/1/2009
+  end: null
+  summary: Developed Windows Service with embedded WCF services for syncing Microsoft GP with Website (vendor locations and software keys), along with front end MVC GUI using C#
+  location: Chattanooga, TN.
+  title: Self-employed Consultant
+  duties:
+    - a
+  accomplishments:
+    - a
+- company: OrthoBanc, LLC
+  start: 8/1/2010
+  end: null
+  summary: Served as head developer for new SaaS project. Was system admin stand-in for 7 months. Continued to provide operations consultation and support on PBX/SAN/Virtualization projects. Analyzed and balanced business needs and writing maintainable and future-proof software and keeping technical debt at an acceptable level. Provided security consultation on company's entire product line including writing tools for detecting and preventing security breaches.
+  location: Chattanooga, TN.
+  title: Solutions Architect
+  duties:
+    - a
+  accomplishments:
+    - Developed MVC web application, with NUnit test coverage using C# and MSSQL
+    - Developed Java based services for client's servers to allow centralized management of deployments using Java and C++/CLR for interoperability
+    - Developed WCF Web Services for Java service clients using C#
+    - Provided automation infrastructure and project management with continuous integration server setup (TeamCity), ticket system setup and administration (Redmine), DVCS setup and administration (Mercurial + Rhodecode), and code review system (ReviewBoard)
+    - Developed web application for managing call recordings and playback through phone headsets initiated through Asterisk phone system using PHP and MySQL
+    - Developed scripts for checking status of various systems through Nagios (Zultys phone system archive status and Faxcore log parser)
+    - Provided additional support for operations (Network administration, consultation on virtualization setup, management of storage, monitoring with Nagios, various tool sets for management)
+- company: Certified Financial Protection Group
+  start: 2/1/2010
+  end: 7/1/2010
+  summary: In charge of automating sales and customer management system as much as possible. Assisted IT staff in managing Active Directory environment (IT staff consisted of two other developers with no previous Windows administration experience).
+  location: Temecula, CA.
+  leave: Relocation to Chattanooga, TN
+  title: IT Consultant
+  duties:
+    - a
+  accomplishments:
+    - Deployed and customized SugarCRM, including custom PHP code for sales automation
+    - Deployed/Maintained VMWare infrastructure
+- company: Syndeo Communications
+  start: 2/1/2010
+  end: 6/1/2010
+  summary: test
+  location: Oceanside, CA.
+  leave: Relocation to Chattanooga, TN
+  title: Jr. Technician
+  duties:
+    - a
+  accomplishments:
+    - Provided general network systems support
+    - Provided Asterisk phone system support (both Switchvox and bare metal configurations)
+    - Developed various small programming projects for company and its clients
+- company: Lewis Marketing Corp
+  start: 9/1/2009
+  end: 2/1/2010
+  summary: test
+  location: San Marcos, CA.
+  leave: Pay not up to work responsibilities.
+  title: Network Consultant
+  duties:
+    - a
+  accomplishments:
+    - Provided general network systems support.
+    - Provided VOIP support for hosted PBX solution.
+    - Developed simple document management system for legal document e-filing with our processors using PHP.
+    - Developed call center leader board using PHP.
+    - Developed software to provide automation in domainless Windows environment for call center using C#.
+    - Deployed VMWare hypervisor.
+- company: Guajome Park Academy
+  start: 6/1/2004
+  end: 8/1/2006
+  summary: test
+  location: Vista, CA.
+  leave: School schedule
+  title: Intern
+  duties:
+    - a
+  accomplishments:
+    - Developed software to manage operations of wellness center using VB 6.0/VBScript.
+    - Maintained small Active Directory environment.
+    - Deployed Microsoft hypervisor.

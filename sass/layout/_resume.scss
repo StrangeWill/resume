@@ -1,0 +1,56 @@
+
+
+body {
+  background-color: #003673;
+  margin: 0;
+}
+
+a { color: #0000ff; }
+h1, h2, h3, h4, h5
+{
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 80%;
+  margin: 0 auto;
+  height: 1000px;
+}
+
+.indent {
+  margin-left: 15px;
+}
+
+.resume {
+  margin: 0;
+  padding: 1px 0;
+
+  > div {
+    background-color: #fff;
+    margin: 10px 8px;
+    padding: 3px 10px;
+    @include box-shadow(4px, 4px, 5px, rgba(0, 0, 0, 0.8));
+  }
+  h2 {
+    margin: 3px;
+  }
+}
+
+.contact {
+  > div {
+    font-size: 1em;
+    width: 45%;
+    display: inline-block;
+    margin: .2em 1em;
+  }
+}
