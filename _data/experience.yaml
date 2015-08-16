@@ -1,63 +1,79 @@
 - company: RoushTech.net
-  start: 5/1/2009
-  end: null
-  summary: Developed Windows Service with embedded WCF services for syncing Microsoft GP with Website (vendor locations and software keys), along with front end MVC GUI using C#
+  start: 5/2009
+  summary: Providing IT services including software design and implementation, workflow automation, troubleshooting, code review and analysis, network troubleshooting and systems integrations.
   location: Chattanooga, TN.
-  title: Self-employed Consultant
+  title: Self-employed consultant
   duties:
-    - a
+    - Work with customers to bring a project through planning, development and deployment and follow through with any maintenance needed.
+    - Coordinate with 3rd party IT staff for needs for project, including obtaining secure access to networks and discussing supportable software stacks.
+    - Provide estimates for small fixed-price projects.
   accomplishments:
-    - a
+    - Improved Microsoft Dynamics with additional reporting for inventory management, inventory automation and shipping automation.
+    - Implemented Switchboard integrations with CRM/EMR platforms with the Switchvox PBX system.
+  opensource:
+    - Gogs bug fixes (Go)
+    - ChaDev improvements (Jekyll/Ruby)
+    - TeamSpeak 3 (Puppet module, 900+ downloads, 4.8/5 quality score)
+    - Ruby vSphere Console bug fixes(Ruby)
 - company: OrthoBanc, LLC
-  start: 8/1/2010
-  end: null
-  summary: Served as head developer for new SaaS project. Was system admin stand-in for 7 months. Continued to provide operations consultation and support on PBX/SAN/Virtualization projects. Analyzed and balanced business needs and writing maintainable and future-proof software and keeping technical debt at an acceptable level. Provided security consultation on company's entire product line including writing tools for detecting and preventing security breaches.
+  start: 8/2010
+  summary: Served as head developer for new SaaS project. Was system admin stand-in for 7 months. Continued to provide operations consultation and support on PBX/SAN/Virtualization projects. Provided security consultation on company's entire product line including writing tools for detecting and preventing security breaches.
   location: Chattanooga, TN.
   title: Solutions Architect
   duties:
-    - a
+    - Responsible for technical design of systems including the domain of all combinations of hardware, software, middleware, firmware, etc.
+    - Coordination and consultation on design, implementation and testing of all measures deemed necessary to keep business data safe and secure.
+    - Applications design and coding as workload permits.
   accomplishments:
-    - Developed MVC web application, with NUnit test coverage using C# and MSSQL
-    - Developed Java based services for client's servers to allow centralized management of deployments using Java and C++/CLR for interoperability
-    - Developed WCF Web Services for Java service clients using C#
-    - Provided automation infrastructure and project management with continuous integration server setup (TeamCity), ticket system setup and administration (Redmine), DVCS setup and administration (Mercurial + Rhodecode), and code review system (ReviewBoard)
-    - Developed web application for managing call recordings and playback through phone headsets initiated through Asterisk phone system using PHP and MySQL
+    - Developed MVC web application, with NUnit test coverage using C# and MSSQL.
+    - Developed Java based services for client's servers to allow centralized management of deployments using Java and C++/CLR for interoperability.
+    - Developed WCF Web Services for Java service clients using C#.
+    - Provided automation infrastructure and project management with continuous integration server setup (TeamCity), ticket system setup and administration (Redmine), DVCS setup and administration (Mercurial + Rhodecode), and code review system (ReviewBoard).
+    - Developed web application for managing call recordings and playback through phone headsets initiated through Asterisk phone system using PHP and MySQL.
     - Developed scripts for checking status of various systems through Nagios (Zultys phone system archive status and Faxcore log parser)
-    - Provided additional support for operations (Network administration, consultation on virtualization setup, management of storage, monitoring with Nagios, various tool sets for management)
+    - Provided additional support for operations (Network administration, consultation on virtualization setup, management of storage, monitoring with Nagios, various tool sets for management).
+    - Deployed 100% configuration managed environment for new Node.js platform, contributed to software development and deployment.
+    - Proposed and executed the migration to a new storage stack cutting storage costs by at least 30% per GB, increasing performance by 1000%, and preparing for 10gbe network support.
 - company: Certified Financial Protection Group
-  start: 2/1/2010
-  end: 7/1/2010
+  start: 2/2010
+  end: 7/2010
   summary: In charge of automating sales and customer management system as much as possible. Assisted IT staff in managing Active Directory environment (IT staff consisted of two other developers with no previous Windows administration experience).
   location: Temecula, CA.
   leave: Relocation to Chattanooga, TN
   title: IT Consultant
   duties:
-    - a
+    - Implement and support CRM system to automate sales workflow.
+    - General IT support.
   accomplishments:
-    - Deployed and customized SugarCRM, including custom PHP code for sales automation
-    - Deployed/Maintained VMWare infrastructure
+    - Deployed and customized SugarCRM, including custom PHP code for sales automation.
+    - Configured roaming profiles & folder redirection to reduce IT helpdesk workload from high rate of employees moving desks.
+    - Deployed/Maintained VMWare infrastructure.
 - company: Syndeo Communications
-  start: 2/1/2010
-  end: 6/1/2010
-  summary: test
+  start: 1/2010
+  end: 6/2010
+  summary:
   location: Oceanside, CA.
   leave: Relocation to Chattanooga, TN
   title: Jr. Technician
   duties:
-    - a
+    - Provide IT support and setup services for networking, servers, VOIP and desktops solutions.
+    - Coordinate with customer support for scheduling and resolution of customer issues.
   accomplishments:
-    - Provided general network systems support
-    - Provided Asterisk phone system support (both Switchvox and bare metal configurations)
-    - Developed various small programming projects for company and its clients
+    - Provided general network systems support.
+    - Provided Asterisk phone system support (both Switchvox and bare metal configurations).
+    - Developed various small programming projects for company and its clients.
+    - Reverse engineered multi-server Asterisk@Home setup that was abandoned by VOIP Administrator, fixed key issues preventing critical business functionality and provided documentation and training for replacement VOIP Admin.
 - company: Lewis Marketing Corp
-  start: 9/1/2009
-  end: 2/1/2010
-  summary: test
+  start: 9/2009
+  end: 2/2010
+  summary:
   location: San Marcos, CA.
   leave: Pay not up to work responsibilities.
   title: Network Consultant
   duties:
-    - a
+    - Deployment, provisioning and troubleshooting of desktops.
+    - Cloud based VOIP management, provisioning and troubleshooting.
+    - Provide IT solutions to further reduce costs or improve efficiency.
   accomplishments:
     - Provided general network systems support.
     - Provided VOIP support for hosted PBX solution.
@@ -66,15 +82,16 @@
     - Developed software to provide automation in domainless Windows environment for call center using C#.
     - Deployed VMWare hypervisor.
 - company: Guajome Park Academy
-  start: 6/1/2004
-  end: 8/1/2006
-  summary: test
+  start: 6/2004
+  end: 8/2006
+  summary:
   location: Vista, CA.
   leave: School schedule
   title: Intern
   duties:
-    - a
+    - Provide help supporting school's Information Technology team
+    - Mentor students on computer software, hardware and computer networking.
   accomplishments:
     - Developed software to manage operations of wellness center using VB 6.0/VBScript.
     - Maintained small Active Directory environment.
-    - Deployed Microsoft hypervisor.
+    - Deployed Microsoft Virtual Server 2005 to house Linux virtual machines for educational purposes.

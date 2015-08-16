@@ -1,4 +1,7 @@
 - school: Palomar
-  degree: Computer Science
+  major: Computer Science
   type: AA
   graduated: 2008
+  electives:
+    - Javascript
+    - Video game programming with C++ and DirectX

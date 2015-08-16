@@ -19,13 +19,16 @@ layout: default
     </div>
     <div class="skills">
         <div class="languages">
-            <h2>Proficient</h2>
-            <span class="indent">{{ site.data.skills.languages.proficient | array_to_sentence_string }}</span>
-            <h2>Familiar</h2>
-            <span class="indent">{{ site.data.skills.languages.familiar | array_to_sentence_string }}</span>
+            <h2>Languages</h2>
+            <div class="indent">
+                <h3>Proficient</h3>
+                <span class="indent">{{ site.data.skills.languages.proficient | array_to_sentence_string }}</span>
+                <h3>Familiar</h3>
+                <span class="indent">{{ site.data.skills.languages.familiar | array_to_sentence_string }}</span>
+            </div>
         </div>
         <div class="frameworks">
-            <h2>Frameworks</h2>
+            <h2>Frameworks/Platforms</h2>
             <span class="indent">{{ site.data.skills.frameworks | array_to_sentence_string }}</span>
         </div>
         <div class="platforms">
@@ -39,15 +42,45 @@ layout: default
     </div>
     <div class="experience">
         {% for item in site.data.experience %}
-        <div>
-            {{ item.company }}
+        <div class="section">
+            <div class="header">{{item.title}} - {{ item.company }} <span class="right-align">{{ item.start }} - {% if item.end %}{{ item.end }}{% else %}Present{% endif %}</span></div>
+            <div>
+                {{ item.summary }}
+                <h2>Duties</h2>
+                <ul>
+                    {% for duty in item.duties %}
+                        <li>{{ duty }}</li>
+                    {% endfor %}
+                </ul>
+                <h2>Accomplishments</h2>
+                <ul>
+                    {% for accomplishment in item.accomplishments %}
+                        <li>{{ accomplishment }}</li>
+                    {% endfor %}
+                </ul>
+                {% if item.opensource %}
+                    <h2>Open Source Contributions</h2>
+                    <ul>
+                        {% for opensource in item.opensource %}
+                            <li>{{ opensource }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
         </div>
         {% endfor %}
     </div>
     <div class="education">
         {% for item in site.data.education %}
         <div>
-            <div class="header">{{ item.school }}</div>
+            <div class="header">{{ item.school }} <span class="right-align">{{ item.graduated }}</span></div>
+            {{ item.type }} - {{ item.major }}
+            <h2>Electives</h2>
+            <ul>
+                {% for elective in item.electives %}
+                    <li>{{ elective }}</li>
+                {% endfor %}
+            </ul>
         </div>
         {% endfor %}
     </div>

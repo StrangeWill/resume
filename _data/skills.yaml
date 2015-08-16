@@ -1,18 +1,22 @@
 languages:
   proficient:
+    - Bash
     - C#
+    - CSS
     - PHP
     - Puppet
     - Python
     - Java
     - Javascript
+    - Less
+    - Sass/Scss
     - VBScript
     - VB 6.0
   familiar:
     - C
     - C++
+    - Go
     - Ruby
-    - Bash
     - LUA
 frameworks:
   - .NET MVC
@@ -21,6 +25,8 @@ frameworks:
   - Entity
   - Jekyll
   - jQuery
+  - Node.js
+  - Sails/Express
 platforms:
   - 'Windows Server: 2003, 2008, 2008 R2, 2012'
   - 'Windows Desktop: 2000, XP, Vista, 7, 8'

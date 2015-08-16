@@ -1,14 +1,14 @@
 user:
   text: William Roush
 email:
-  link: test
+  link: mailto:william.roush@roushtech.net
   text: william.roush@roushtech.net
 phone:
   link: tel:+14234630592
   text: 423-463-0592
 linkedin:
-  link: https://www.linkedin.com/in/williamroush
-  text: https://www.linkedin.com/in/williamroush
+  link: https://linkedin.com/in/williamroush
+  text: https://linkedin.com/in/williamroush
 bitbucket:
   link: https://bitbucket.org/StrangeWill
   text: https://bitbucket.org/StrangeWill
@@ -21,3 +21,5 @@ twitter:
 web:
   link:  http://www.roushtech.net
   text:  http://www.roushtech.net
+location:
+  text: Hixson, Tennessee

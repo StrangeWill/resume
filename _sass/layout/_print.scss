@@ -1,0 +1,17 @@
+@media print {
+  .wrapper {
+    width: 100%;
+  }
+
+  .resume {
+    > div {
+      @include box-shadow(0, 0, 0, #000);
+    }
+  }
+
+  .contact {
+    > div {
+      width: 40%;
+    }
+  }
+}
