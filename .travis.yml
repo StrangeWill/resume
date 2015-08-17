@@ -4,7 +4,7 @@ rvm:
 before_script:
   - npm install -g gulp
   - npm install
-  - chmod -R +x ./_scripts/ci
+  - chmod -R +x ./bin/*
 script: ./bin/build.sh
 after_script:
   - ./bin/deploy.sh
