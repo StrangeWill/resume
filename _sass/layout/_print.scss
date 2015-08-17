@@ -3,15 +3,13 @@
     width: 100%;
   }
 
-  .resume {
-    > div {
-      @include box-shadow(0, 0, 0, #000);
-    }
+  .icon-box {
+    width: 40%;
   }
 
-  .contact {
-    > div {
-      width: 40%;
-    }
+  .box {
+    @include box-shadow(0, 0, 0, #000);
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
   }
 }

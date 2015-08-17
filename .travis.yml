@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.0.0
+before_script:
+  - npm install -g gulp
+  - npm install
+  - chmod -R +x ./_scripts/ci
+script: ./bin/build.sh
+after_script:
+  - ./bin/deploy.sh

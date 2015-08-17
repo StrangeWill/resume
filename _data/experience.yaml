@@ -4,8 +4,8 @@
   location: Chattanooga, TN.
   title: Self-employed consultant
   duties:
-    - Work with customers to bring a project through planning, development and deployment and follow through with any maintenance needed.
-    - Coordinate with 3rd party IT staff for needs for project, including obtaining secure access to networks and discussing supportable software stacks.
+    - Work with customers to bring a project through planning, development and deployment. Including following up with any maintenance needed.
+    - Coordinate with 3rd party IT staff for needs for project, including obtaining access to secure networks and discussing supportable software stacks.
     - Provide estimates for small fixed-price projects.
   accomplishments:
     - Improved Microsoft Dynamics with additional reporting for inventory management, inventory automation and shipping automation.
@@ -14,10 +14,10 @@
     - Gogs bug fixes (Go)
     - ChaDev improvements (Jekyll/Ruby)
     - TeamSpeak 3 (Puppet module, 900+ downloads, 4.8/5 quality score)
-    - Ruby vSphere Console bug fixes(Ruby)
+    - Ruby vSphere Console bug fixes (Ruby)
 - company: OrthoBanc, LLC
   start: 8/2010
-  summary: Served as head developer for new SaaS project. Was system admin stand-in for 7 months. Continued to provide operations consultation and support on PBX/SAN/Virtualization projects. Provided security consultation on company's entire product line including writing tools for detecting and preventing security breaches.
+  summary: Served as head developer for new SaaS project. Provided operations consultation and support on PBX/SAN/Virtualization projects. Provided security consultation on company's entire product line including writing tools for detecting and preventing security breaches.
   location: Chattanooga, TN.
   title: Solutions Architect
   duties:

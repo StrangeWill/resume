@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="resume">
-    <div class="contact">
+    <div class="box">
         {% for item in site.data.contact %}
-            <div class="{{ item[0] }}">
+            <div class="icon-box {{ item[0] }}">
                 {% if item[1].link %}
                     <a href="{{ item[1].link }}">{{ item[1].text }}</a>
                 {% else %}
@@ -14,11 +14,12 @@ layout: default
             </div>
         {% endfor %}
     </div>
-    <div class="summary">
+    <div class="box">
         <p>{{ site.data.summary.text }}</p>
     </div>
-    <div class="skills">
-        <div class="languages">
+    <div class="box">
+        <h1>Skills</h1>
+        <div class="indent">
             <h2>Languages</h2>
             <div class="indent">
                 <h3>Proficient</h3>
@@ -27,11 +28,11 @@ layout: default
                 <span class="indent">{{ site.data.skills.languages.familiar | array_to_sentence_string }}</span>
             </div>
         </div>
-        <div class="frameworks">
+        <div class="indent">
             <h2>Frameworks/Platforms</h2>
             <span class="indent">{{ site.data.skills.frameworks | array_to_sentence_string }}</span>
         </div>
-        <div class="platforms">
+        <div class="indent">
             <h2>Platforms</h2>
             <div class="indent">
                 {% for item in site.data.skills.platforms %}
@@ -40,10 +41,11 @@ layout: default
             </div>
         </div>
     </div>
-    <div class="experience">
+    <div class="box">
+        <h1>Experience</h1>
         {% for item in site.data.experience %}
-        <div class="section">
-            <div class="header">{{item.title}} - {{ item.company }} <span class="right-align">{{ item.start }} - {% if item.end %}{{ item.end }}{% else %}Present{% endif %}</span></div>
+        <div class="section indent">
+            <div class="header">{{item.title}} - {{ item.company }} ({{item.location}}) <span class="right-align">{{ item.start }} - {% if item.end %}{{ item.end }}{% else %}Present{% endif %}</span></div>
             <div>
                 {{ item.summary }}
                 <h2>Duties</h2>
@@ -70,18 +72,15 @@ layout: default
         </div>
         {% endfor %}
     </div>
-    <div class="education">
-        {% for item in site.data.education %}
-        <div>
-            <div class="header">{{ item.school }} <span class="right-align">{{ item.graduated }}</span></div>
-            {{ item.type }} - {{ item.major }}
-            <h2>Electives</h2>
-            <ul>
-                {% for elective in item.electives %}
-                    <li>{{ elective }}</li>
-                {% endfor %}
-            </ul>
+    <div class="box">
+        <h1>Education</h1>
+        <div class="section indent">
+            {% for item in site.data.education %}
+            <div>
+                <div class="header">{{ item.school }} <span class="right-align">{{ item.graduated }}</span></div>
+                {{ item.type }} - {{ item.major }}
+            </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </div>
 </div>

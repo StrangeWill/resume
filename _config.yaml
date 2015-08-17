@@ -2,6 +2,7 @@ markdown: kramdown
 permalink: pretty
 highlights: false
 exclude:
+  - bin
   - bower_components
   - node_modules
   - bower.json
@@ -10,7 +11,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Readme.md
-
 sass:
   sass_dir: _sass
   style: compressed
