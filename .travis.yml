@@ -2,6 +2,7 @@ language: ruby
 rvm:
   - 1.9.3
 before_script:
+  - apt-get install ruby-dev
   - npm install -g npm
   - npm install -g gulp
   - npm install
