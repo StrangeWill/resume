@@ -2,6 +2,7 @@ language: ruby
 rvm:
   - 1.9.3
 before_script:
+  - npm install -g npm
   - npm install -g gulp
   - npm install
   - chmod -R +x ./bin/*
